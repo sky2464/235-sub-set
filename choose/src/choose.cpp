@@ -1,19 +1,10 @@
 //============================================================================
 // Name        : choose.cpp
-// Author      : 
+// Author      : Navid Saboori, Muhammad Usman
 // Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Copyright   : Sky2464, MUsman
+// Description : m Choose K in C++, Ansi-style
 //============================================================================
-
-//
-//  main.cpp
-//  problem1.cpp
-//
-//  Created by Muhammad Usman on 2/17/18.
-//  Copyright © 2018 Muhammad Usman. All rights reserved.
-//
-
 #include <iostream>
 #include <string>
 #include <cstdlib>
