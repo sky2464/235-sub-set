@@ -11,7 +11,7 @@
 
 using namespace std;
 
-
+// function to print the array of subset.
 void print(int subset[],int size)
 {
     cout<<"{";
@@ -23,10 +23,11 @@ void print(int subset[],int size)
         cout<<subset[i]<<",";
         
     }
-    cout<< "}"<<endl;}
+    cout<< "}"<<endl;
+}
     
 
-
+// helper function to add elements in subset array.
 void helper(int arr[],int subset[],int i,int size)
 {
    if(i == size)
@@ -45,9 +46,10 @@ void helper(int arr[],int subset[],int i,int size)
 }
 void powerset(int arr[], int size)
 {
-    int subset[size];
+    int subset[size];// makes another array equal to the size of original to add elements one by one.
     helper(arr,subset,0,size);
 }
+// main function to start the programme.
 int main()
 {
     int size;
