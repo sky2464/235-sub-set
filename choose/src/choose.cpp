@@ -53,7 +53,7 @@ void powerset(int arr[], int size)
 int main()
 {
     int size;
-    cout<<"enter the size of array."<<endl;
+    cout<<"enter the size of array."<<endl; //You can't ask size of array from user!
     cin >> size;
     int arr[size];
     
